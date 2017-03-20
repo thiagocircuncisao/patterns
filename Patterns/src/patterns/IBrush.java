@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorymethod;
+package patterns;
+
+import java.awt.Graphics2D;
+import java.awt.Shape;
 
 /**
  *
- * @author thiago
+ * @author aluno
  */
-public class Creator {
-    
+public interface IBrush {
+    public abstract void fill(Graphics2D g2d, Shape shape);
 }
